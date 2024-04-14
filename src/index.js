@@ -80,6 +80,7 @@ async function fetchReport(data) {
     ]
 
     try {
+        // insert your OpenAI API key here
         const openai = new OpenAI({
             dangerouslyAllowBrowser: true
         })
